@@ -1,2 +1,2 @@
 # WebScrapingProject-EcommerceAnalysis
- HKTVmall & Amazon Skincare Products Analysis
+ HKTVmall & Amazon Skincare Product Analysis
