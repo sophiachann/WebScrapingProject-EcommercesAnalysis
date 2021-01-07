@@ -82,5 +82,26 @@ On average, female products were sold **twice** as much as male products, which 
 
 ## Recommendations
 
-## 
+**1. Prioritize immediate shipment of products** <br>
+• Ensure majority of products are available for immediate delivery <br>
+• Increase promotion of ‘immediate shipment’ products <br> <br>
 
+**2. Increase number of hydrating mask products** <br>
+• There is an insufficient variety of masks relative to its high demand <br> <br>
+
+**3. Recommend products with ratings up to a maximum of 4.7** <br>
+• Similar findings in recent study <br> <br>
+
+## Challenges
+
+• No sales data on Amazon <br>
+• Amazon product list too large <br>
+• Errors when web scraping <br>
+• Majority of products are under ‘Others’ category <br>
+• Choosing the right graphs to represent data <br> <br>
+
+## Future Extensions
+
+• Categorise the products to be more accurate <br>
+• Explore other websites <br>
+• Explore other markets outside of skincare <br>
