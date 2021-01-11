@@ -1,107 +1,53 @@
-# Web Scraping Project - E-commerce Analysis of Skincare Product from HKTVmall & Amazon
+# Web Scraping Ecommerce sites using Selenium & Python
 
-## **--TBC not yet finished--**
+This repository contains all the code to extract and analyse product data from 2 largest E-commerce platforms in Hong Kong and US - HKTVmall & Amazon respectively, for explorations of potential business opportunites.
 
-<p align="center"><img src="img/bg.png"></p>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/intro.png" width="800"/>
 
-## Project Overview
+### Business Value of this Project
+
+- Identifying new opportunities
+  - Are there in-demand products that are under-supplied? Are there new audiences to target?
+- Understanding Customer Needs
+  - What do our customers want? How can we better cater to their needs?
+- Determining Growth Factors
+  - What are the biggest drivers of e-commerce sales?
+
+### Project Overview
 
 - Web scraped over 50,000 skincare products from HKTVmall and Amazon and preprocessed the data for analysis
 - Constructed data frames and visualisations which identified gaps in the market and analysed consumer spending habits such as price elasticity of demand and effective types of promotions
 - Made appropriate business recommendations according to the data-driven market insights
 
-#### Aims
+## What is in this repo?
 
-- Constructing a data frame with information collected via web scraping
-- Analyzing the dataset and forming data-driven insights on a local market in Hong Kong
-
-
-#### Business Objectives
-
-- Identifying new opportunities
-Are there in-demand products that are under-supplied?
-Are there new audiences to target?
-
-- Understanding Customer Needs
-What do our customers want? How can we better cater to their needs?
-
-- Determining Growth Factors
-What are the biggest drivers of e-commerce sales?
-
+- `Notebooks with 01-04` are the complete steps - from web-scraping, data preprocessing, merging datasets to visualization.
+- `dataframes` contains csv files that store the cleaned product data.
+- `img` contains illustrations for this README.md
+- `EcommerceAnalysis.pdf` is a powerpoint which illustrates the complete framework of this project. 
 
 ## Data Collection & Preprocessing
 
-1. Cast object to specified dtype
-Astype – Price, Review, Rating
+We collected the product data from HKTVmall and Amazon through webscraping with Selenium and Beautiful Soup, instead of API. API of HKTVmall is not for public use, makes it even harder than sraping to complete data acquisition.
 
-2. Extract useful string
-Regex – Brand, Product
+We executed some common preprocessing steps, and engineered new features at a later point to improve our analytical accuracy.
 
-3. Replace missing values
-Try, Except – NaN, 0
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/data-preprocessing.png" width="800"/>
 
-4. Extra Columns
-Revenue, Product Category, Gender, % Discount
+## Key Findings
 
-## Findings
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana01.png" width="800"/>
 
-#### Male vs Female
-On average, female products were sold **twice** as much as male products, which means the skincare market is still **female-dominated** in Hong Kong
-<p align="center"><img src="img/mvf.png">
-<p align="center">________________________________________________________________________________________________________________________</p>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana02.png" width="800"/>
 
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana04.png" width="800"/>
 
-<p align="center"><img src="img/ana1.png"></p>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana05.png" width="800"/>
 
-<p align="center">________________________________________________________________________________________________________________________</p>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana06.png" width="800”/>
 
-<p align="center"><img src="img/ana2.png"></p>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana07.png" width="800"/>
 
-<p align="center">________________________________________________________________________________________________________________________</p>
+## Business Recommendations
 
-<p align="center"><img src="img/ana3.png"></p>
-
-<p align="center">________________________________________________________________________________________________________________________</p>
-
-<p align="center"><img src="img/ana4.png"></p>
-
-<p align="center">________________________________________________________________________________________________________________________</p>
-
-<p align="center"><img src="img/ana5.png"></p>
-
-<p align="center">________________________________________________________________________________________________________________________</p>
-
-<p align="center"><img src="img/ana6.png"></p>
-
-<p align="center">________________________________________________________________________________________________________________________</p>
-
-
-<p align="center"><img src="img/ana7.png"></p>
-
-## Conclusion
-
-## Recommendations
-
-**1. Prioritize immediate shipment of products** <br>
-• Ensure majority of products are available for immediate delivery <br>
-• Increase promotion of ‘immediate shipment’ products <br> <br>
-
-**2. Increase number of hydrating mask products** <br>
-• There is an insufficient variety of masks relative to its high demand <br> <br>
-
-**3. Recommend products with ratings up to a maximum of 4.7** <br>
-• Similar findings in recent study <br> <br>
-
-## Challenges
-
-• No sales data on Amazon <br>
-• Amazon product list too large <br>
-• Errors when web scraping <br>
-• Majority of products are under ‘Others’ category <br>
-• Choosing the right graphs to represent data <br> <br>
-
-## Future Extensions
-
-• Categorise the products to be more accurate <br>
-• Explore other websites <br>
-• Explore other markets outside of skincare <br>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/bus-recommendations.png" width="800"/>
