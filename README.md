@@ -44,7 +44,7 @@ We executed some common preprocessing steps, and engineered new features at a la
 
 <img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana05.png" width="800"/>
 
-<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana06.png" width="800”/>
+<img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana06.png" width="800"/>
 
 <img src="https://github.com/sophiachann/WebScrapingProject-EcommerceAnalysis/blob/main/img/ana07.png" width="800"/>
 
